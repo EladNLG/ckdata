@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Balling</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <p>So, you have collected your crouch kick data over the <s>years</s> days.
+            Now, you are able to upload them here to generate a cool* graphic!
+        </p>
+        <p style="font-size: 0.85em;">* graphic may not be actually cool</p>
+        <textarea id="custom-file-upload" autocapitalize="false" autocomplete="false" placeholder="Enter csv here.."></textarea>
+        <input type="text" id="name" placeholder="Enter username..." spellcheck="false">
+        <button onclick="GenerateImage()" class="generate-button">Generate</button>
+        <br>
+        <canvas id="canvas" width="800" height="450"></canvas>
+        <img id="generated-image" width="800px" height="450" src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+        
+        <script src="index.js"></script>
+    </body>
+</html>

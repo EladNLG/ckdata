@@ -1,0 +1,96 @@
+
+html {
+    display: table;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+
+body
+{
+    font-family: "Golos Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: 0px;
+    font-style: normal;
+    font-size: 1em;
+    background-color: #123;
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: center;
+}
+p {
+    text-align: center;
+}
+input[type="file"] {
+    display: none;
+}
+
+#canvas
+{
+    width: 800px;
+    height: 600px;
+    top: 100%;
+    display: none;
+}
+
+input[type="text"] {
+    margin: 1em 0em;
+    width: 100%;
+    display: block;
+    float:left;    
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #0000;
+    padding: 6px 12px;
+    font-family: "Golos Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+}
+
+#generated-image {
+    border: 0px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+.generate-button {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    border: 1px solid #ccc;
+    background-color: #0000;
+    padding: 6px 12px;
+    margin: 1em 0;
+    font-family: "Golos Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    justify-content: center;
+    color: #fff;
+}
+
+#custom-file-upload {
+    border: 1px solid #ccc;
+    background-color: #0000;
+    padding: 6px 12px;
+    margin: 0;
+    width: calc(100% - 24px);
+    height: fit-content;
+    max-height: 200px;
+    display: flex;
+    color: #fff;
+    font-family: "Golos Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    resize: none;
+    justify-content: center;
+    cursor: pointer;
+}
